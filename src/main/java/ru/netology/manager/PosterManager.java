@@ -4,7 +4,7 @@ import ru.netology.domain.PosterItems;
 
 public class PosterManager {
 
-    private PosterItems[] items = new PosterItems[0];
+
     private int resultLength = 10;
 
     public PosterManager() {

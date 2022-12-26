@@ -1,6 +1,6 @@
 package ru.netology.manager.test;
 
-mport org.junit.jupiter.api.Assertions;
+import  org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import ru.netology.domain.PosterItems;
 import ru.netology.manager.PosterManager;

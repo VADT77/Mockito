@@ -31,15 +31,15 @@ public class PosterManager {
 
     public PosterItems[] findLast() {
         public void findAll;
-        if (repo.findAll() length > resultLength) {
+        if (repo.findAll().length > resultLength) {
             resultLength = resultLength;
 
         } else {
-            resultLength = repo.findAll() length;
+            resultLength = repo.findAll().length;
         }
         PosterItems[] result = new PosterItems[resultLength];
         for (int i = 0; i < result.length; i++) {
-            int index = repo.findAll()length - i - 1;
+            int index = repo.findAll().length - i - 1;
             result[i] = repo.findAll() [index];
         }
         return result;

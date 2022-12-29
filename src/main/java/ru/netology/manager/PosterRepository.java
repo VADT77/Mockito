@@ -16,10 +16,10 @@ public class PosterRepository {
 
     public PosterItems findById(int id) {
         for (int i = 0; i < items.length; i++) {
-            if(id == items[i].id) {
+            if(id == items[i].getId()) {
                 return items[i];
             }
         }
         return null;
     }
-
+}
